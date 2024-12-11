@@ -33,7 +33,7 @@ export const EXPERIENCE = [
         'company': 'Wonita Oriental OPC',
         'startDate': 'December, 2023',
         'endDate': 'December, 2024',
-        'compLogo': '../assets/experience/wonita.svg',
+        'compLogo': '../../public/assets/experience/wonita.svg',
         'experience': [
             'Works on e-commerce application, web and mobile',
             'Update and debug features',
@@ -48,7 +48,7 @@ export const EXPERIENCE = [
         'company': 'Denso Philippines',
         'startDate': 'December, 2022',
         'endDate': 'June, 2023',
-        'compLogo': '../assets/experience/denso.svg',
+        'compLogo': '../../public/assets/experience/denso.svg',
         'experience': [
             'Conduct investigation and analysis of  product quality',
             'Lead cross functional meetings to discuss investigation processes and data gathering strategies',
@@ -60,37 +60,37 @@ export const SKILLS = [
     {
         'id': 0,
         'skill': 'Next JS',
-        'skillImage': '../assets/experience/NextJs.svg',
+        'skillImage': '../../public/assets/experience/NextJs.svg',
     },
     {
         'id': 0.1,
         'skill': 'HTML',
-        'skillImage': '../assets/experience/html.svg',
+        'skillImage': '../../public/assets/experience/html.svg',
     },
     {   
         'id': 0.2,
         'skill': 'CSS',
-        'skillImage': '../assets/experience/CssSvg.svg',
+        'skillImage': '../../public/assets/experience/CssSvg.svg',
     },
     {
         'id': 0.3,
         'skill': 'React JS',
-        'skillImage': '../assets/experience/ReactSvg.svg',
+        'skillImage': '../../public/assets/experience/ReactSvg.svg',
     },
     {
         'id': 0.4,
         'skill': 'React Native',
-        'skillImage': '../assets/experience/ReactSvg.svg',
+        'skillImage': '../../public/assets/experience/ReactSvg.svg',
     },
     {
         'id': 0.5,
         'skill': 'Laravel',
-        'skillImage': '../assets/experience/LaravelSvg.svg',
+        'skillImage': '../../public/assets/experience/LaravelSvg.svg',
     },
     {
         'id': 0.3,
         'skill': 'SQL',
-        'skillImage': '../assets/experience/SqlSvg.svg',
+        'skillImage': '../../public/assets/experience/SqlSvg.svg',
     },
 ]
 
@@ -98,7 +98,7 @@ export const PROJECTS = [
     {
         'title': 'Buudl App',
         'description': 'E-commerce application that downloadable in both ios and android',
-        'image': '../assets/project/buudlApp.png',
+        'image': '../../public/assets/project/buudlApp.png',
         'tools': [
             'React',
             'React Native',
@@ -109,7 +109,7 @@ export const PROJECTS = [
     {
         'title': 'Buudl Web',
         'description': 'E-commerce web application',
-        'image': '../assets/project/buudlWeb.png',
+        'image': '../../public/assets/project/buudlWeb.png',
         'tools': [
             'Next Js',
             'React',
@@ -120,7 +120,7 @@ export const PROJECTS = [
     {
         'title': 'Coffee Shop Website',
         'description': 'Web application that is fully responsive ',
-        'image': '../assets/project/coffeeWeb.png',
+        'image': '../../public/assets/project/coffeeWeb.png',
         'tools':[
             'HTML',
             'CSS',
