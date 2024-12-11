@@ -87,7 +87,7 @@ return (
 						// initial='hidden'
 						// whileInView='visible'
 						className='md:block hidden h-auto w-[50%] lg:max-w-full object-cover'
-						src="/src/assets/about/ChanoAbout.png" 
+						src="/src/assets/about/chano-about.png" 
 						alt="" 
 					/>
 					<motion.ul
