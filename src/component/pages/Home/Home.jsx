@@ -5,7 +5,7 @@ import { TextGenerateEffect } from '../../../ui/TextGenerateEffect'
 import MagicButton from '../../../ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa6'
 import { BouncingArrow } from '../../../ui/BouncingArrow'
-import {ChanoImage} from '../../../../public/assets/hero/chano-cartoon.png'
+import ChanoImage from '../../../../public/assets/hero/chano-cartoon.png'
 
 const Home = () => {
 
