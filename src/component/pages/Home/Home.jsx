@@ -25,7 +25,7 @@ const Home = () => {
       <div className='absolute text-white z-10 top-[50%] translate-y-[-50%] mx-[10%] max-h-[100vh]'>
         
         <div className='flex flex-col gap-10 lg:flex-row justify-between items-center relative !z-50'>
-          <img className='lg:order-[1] order-[-1] w-[292px] md:w-50 xl:w-full bg-no-repeat' src="/src/assets/hero/ChanoCartoon.png" alt="" />
+          <img className='lg:order-[1] order-[-1] w-[292px] md:w-50 xl:w-full bg-no-repeat' src="/src/assets/hero/chano-cartoon.png" alt="" />
           <div className='flex flex-col justify-center lg:items-start items-center gap-4'>
             <p className='text-3xl font-light'>{USER_INFO.header}</p>
             <TextGenerateEffect 
