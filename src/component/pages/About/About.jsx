@@ -2,6 +2,10 @@ import { useInView } from 'react-intersection-observer'
 import { ABOUT } from '../../../data'
 import { BackgroundBeamsWithCollision } from '../../../ui/BackgroundWithCollison'
 import { motion} from "framer-motion"
+import BackendAbout from '../../../../public/assets/about/BackendAbout.png'
+import ArrowAbout from '../../../../public/assets/about/ArrowAbout.png'
+import UiAbout from '../../../../public/assets/about/UiAbout.png'
+import ChanoAbout from '../../../../public/assets/about/chano-about.png'
 
 
 const About = () => {
@@ -87,7 +91,7 @@ return (
 						// initial='hidden'
 						// whileInView='visible'
 						className='md:block hidden h-auto w-[50%] lg:max-w-full object-cover'
-						src="/public/assets/about/chano-about.png" 
+						src={ChanoAbout}
 						alt="" 
 					/>
 					<motion.ul
@@ -100,7 +104,7 @@ return (
 								variants={liVariant}
 							className='flex gap-5'
 						>
-							<img className='h-auto w-10 sm:w-auto' src="/public/assets/about/ArrowAbout.png" alt="" />
+							<img className='h-auto w-10 sm:w-auto' src={ArrowAbout} alt="" />
 							<div>
 								<h2 className='text-xl sm:text-2xl lg:text-3xl font-bold tracking-wider'>{ABOUT.data1.title}</h2>
 								<p className=' sm:text-lg'>{ABOUT.data1.Description}</p>
@@ -110,7 +114,7 @@ return (
 								variants={liVariant} 
 							className='flex gap-5'
 						>
-							<img className='h-auto w-10 sm:w-auto' src="/public/assets/about/BackendAbout.png" alt="" />
+							<img className='h-auto w-10 sm:w-auto' src={BackendAbout} alt="" />
 							<div>
 								<h2 className='sm:text-2xl lg:text-3xl font-bold tracking-wider'>{ABOUT.data2.title}</h2>
 								<p className='text-xs sm:text-lg'>{ABOUT.data2.Description}</p>
@@ -120,7 +124,7 @@ return (
 								variants={liVariant} 
 							className='flex gap-5'
 						>
-							<img className='h-auto w-10 sm:w-auto' src="/public/assets/about/UiAbout.png" alt="" />
+							<img className='h-auto w-10 sm:w-auto' src={UiAbout} />
 							<div>
 								<h2 className='sm:text-2xl lg:text-3xl font-bold tracking-wider'>{ABOUT.data3.title}</h2>
 								<p className='text-xs sm:text-lg'>{ABOUT.data3.Description}</p>
